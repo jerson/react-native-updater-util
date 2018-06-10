@@ -20,7 +20,8 @@ import java.io.File;
 import java.util.List;
 
 public class RNUpdaterUtilModule extends ReactContextBaseJavaModule {
-
+    
+    private static final String TAG = "RNUpdaterUtil";
     private final ReactApplicationContext reactContext;
 
     public RNUpdaterUtilModule(ReactApplicationContext reactContext) {
