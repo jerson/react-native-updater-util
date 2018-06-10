@@ -1,6 +1,8 @@
 
 # react-native-updater-util
 
+method for open installer "apk" only **Android**
+
 ## Getting started
 
 `$ npm install react-native-updater-util --save`
@@ -11,13 +13,6 @@
 
 ### Manual installation
 
-
-#### iOS
-
-1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-updater-util` and add `RNUpdaterUtil.xcodeproj`
-3. In XCode, in the project navigator, select your project. Add `libRNUpdaterUtil.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
-4. Run your project (`Cmd+R`)<
 
 #### Android
 
@@ -37,9 +32,8 @@
 
 ## Usage
 ```javascript
-import RNUpdaterUtil from 'react-native-updater-util';
+import UpdaterUtil from 'react-native-updater-util';
 
-// TODO: What to do with the module?
-RNUpdaterUtil;
+UpdaterUtil.openInstaller(path)
 ```
   
