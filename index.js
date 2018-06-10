@@ -1,12 +1,9 @@
-
-import { NativeModules } from 'react-native';
+import { NativeModules } from "react-native";
 
 const { RNUpdaterUtil } = NativeModules;
 
 const TAG = "[UpdaterUtil]";
 export default class UpdaterUtil {
-  
-
   static openInstaller(path) {
     __DEV__ && console.debug(TAG, "openInstaller", path);
     if (Platform.OS !== "android") {
@@ -16,5 +13,4 @@ export default class UpdaterUtil {
     }
     return RNUpdaterUtil.openInstaller(path);
   }
-
 }
