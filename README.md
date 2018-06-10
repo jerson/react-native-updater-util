@@ -1,7 +1,7 @@
 
 # react-native-updater-util
 
-method for open installer "apk" only **Android**
+Method for open installer "apk" only **Android**
 
 ## Getting started
 

@@ -4,9 +4,9 @@ Pod::Spec.new do |s|
   s.version      = "1.0.0"
   s.summary      = "RNUpdaterUtil"
   s.description  = <<-DESC
-                  RNUpdaterUtil
+                  Method for open installer "apk" only **Android**
                    DESC
-  s.homepage     = ""
+  s.homepage     = "https://github.com/jerson/react-native-updated-util"
   s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "jeral17@gmail.com" }
