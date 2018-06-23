@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-updater-util",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "index.js",
   "repository": {
@@ -17,6 +17,6 @@
   "author": "Gerson Alexander Pardo Gamez",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.55"
   }
 }
